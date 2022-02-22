@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grab - Login</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="arquivoJs.js"></script>
-  </head>
-  <body>
+</head>
+<body class="pai">
+
+  <div class="filho1">
 
     <div class="logo">
-      <img src="./assets/logo-grab-150px.png" alt="logo" class="logoImg">
+        <img src="./assets/logo-grab-150px.png" alt="logo" class="logoImg">
     </div>
-
+  
     <form action="get" class="formulario">
-
       <input type="email" name="emailT" id="emailT" placeholder="@">
 
       <p id="erroEmail"></p>
@@ -22,16 +24,19 @@
       <input type="password" name="senhaT" id="senhaT" placeholder="senha">
 
       <button type="button" value="Input Button" id="botaoEntrar" onclick="validaEmail()">Entrar</button>
-
     </form>
-
+  
     <div class="ajuda">
-
       <p class="p1">problemas para entrar?</p>  
 
       <p class="p2"><a href="#">clique aqui</a></p>
-      
     </div>
 
-  </body>
+  </div>
+
+  <div class="filho2">
+    <img src="./assets/undraw_interview.jpg" alt="time" class="imgTime"> 
+  </div> 
+    
+</body>
 </html>
