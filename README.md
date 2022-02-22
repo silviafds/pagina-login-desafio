@@ -2,9 +2,7 @@
   <img src="./telaDesafio/tela.png" alt="Logo" width="720">
   <h3 align="center">Grab - Página de login</h3>
 </p>
-<p align="center">
-  <a href="https://github.com/magdielndantas/grab-pagina-de-login">Desafio</a>
-</p>
+
 
 ## DevChallenge
 [DevChallenge](https://devchallenge.com.br/) permite que você evolua suas skills como programador!
